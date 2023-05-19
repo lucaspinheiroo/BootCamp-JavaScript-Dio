@@ -1,9 +1,9 @@
 console.log('Olá'); 
 
-const valor_combustivel = 6.49
-const consumomedio = 8.5
-const distancia = 365
+const valor_combustivel = 6.49;
+const consumomedio = 7.3;
+const distancia = 233;
 
-let res = ((distancia/consumomedio)*valor_combustivel)
+let valorgasto = ((distancia/consumomedio)*valor_combustivel)
 
-console.log(`O valor gasto nessa viagem foi, ${res}`)
+console.log(`O valor gasto nessa viagem foi, R$${valorgasto.toFixed(2)}`)
