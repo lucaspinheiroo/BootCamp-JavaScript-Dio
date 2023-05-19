@@ -1,10 +1,12 @@
 /* variaveis boolean = verdadeiro ou falso */
 
-const numero = 6
+const numero = 5
 
-const numeroPar = (numero % 2) === 0;
+const numeroPar = numero % 2
 
-console.log(numeroPar)
-
-
+if (numeroPar == 0) {
+    console.log(`O número  é par`)
+} else {
+    console.log(`Esse número é ímpar`)
+}
 
