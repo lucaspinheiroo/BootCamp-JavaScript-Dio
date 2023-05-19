@@ -4,6 +4,7 @@ let nota2 = 7
 let nota3 = 9 
 
 let media = (nota1 + nota2 + nota3)/3
+console.log(`A sua média foi ${media.toFixed(2)}`)
 
 if (media < 5) {
     console.log('Reprovado')
